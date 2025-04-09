@@ -15,7 +15,7 @@ def lambda_handler(event, context):
             'Tags': [
                 {
                     'Key': 'Name',
-                    'Value': 'server_from_git_code'
+                    'Value': 'server_create_from_git_code'
                 },
             ]
         },
