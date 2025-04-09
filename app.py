@@ -5,7 +5,7 @@ def lambda_handler(event, context):
     client = boto3.client('ec2')
     response = client.run_instances(
     ImageId='ami-076c6dbba59aa92e6',
-    InstanceType='t2.micro',
+    InstanceType='t2.mini',
     KeyName='Cust-User-global-KeyPair',
     MaxCount=1,
     MinCount=1,
