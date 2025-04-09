@@ -11,7 +11,7 @@ def lambda_handler(event, context):
     MinCount=1,
     TagSpecifications=[
         {
-            'ResourceType': 'instance',
+            'ResourceType': 'instances-AMIs',
             'Tags': [
                 {
                     'Key': 'Name',
