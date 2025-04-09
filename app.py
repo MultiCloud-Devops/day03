@@ -6,7 +6,7 @@ def lambda_handler(event, context):
     response = client.run_instances(
     ImageId='ami-076c6dbba59aa92e6',
     InstanceType='t2.micro',
-    KeyName='Cust-User-KeyPair',
+    KeyName='Cust-User-global-KeyPair',
     MaxCount=1,
     MinCount=1,
     TagSpecifications=[
